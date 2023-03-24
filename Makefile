@@ -15,7 +15,10 @@ test:
 	make
 	make install
 	nugo nugotestproject
-	cd $(GOPATH)/nugotestproject && make && ./nugotestproject && make docker
+	cd $(GOPATH)/nugotestproject && make && ./nugotestproject
+
+docker:
+	docker build -t nugo .
 
 clean:
 	rm -f $(TARGET)
