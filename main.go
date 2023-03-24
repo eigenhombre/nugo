@@ -111,7 +111,7 @@ func main() {
 		if i%4 == 0 {
 			fmt.Print("\t")
 		}
-		fmt.Printf("%10s ", name)
+		fmt.Printf(" %12s", name)
 		if i%4 == 3 {
 			fmt.Print("\n")
 		}

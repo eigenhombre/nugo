@@ -28,9 +28,11 @@ Example run:
         go mod tidy
     Initialized empty Git repository in /Users/jacobsen/Programming/go/myproject/.git/
 
-            go.mod    LICENSE Dockerfile   Makefile
-        README.md .gitignore    .github       .git
-        main.go
+
+	       go.mod      LICENSE   Dockerfile     Makefile
+	    README.md   .gitignore      .github         .git
+	      main.go
+
     OK
     $ cd $GOPATH/myproject
     $ make
