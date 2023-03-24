@@ -7,7 +7,9 @@ change the GitHub username to your own.
 
 Aside from a simple Go 'hello world' type program, it creates some
 infrastructure I tend to use for all my builds: Dockerfile, Makefile,
-GitHub Action workflow, etc.
+GitHub Action workflow, etc.  These files are enumerated in [my repository
+checklist Gist](https://gist.github.com/eigenhombre/204400c786f9dba3a8d3193d3ce1542a)
+and in greater detail in [this blog post](http://johnj.com/posts/practices/).
 
 Here's how I build it:
 
