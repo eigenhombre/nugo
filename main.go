@@ -89,6 +89,7 @@ func main() {
 	writeFile("./README.md", readme(proj, year))
 	writeFile("./Dockerfile", Dockerfile(proj))
 	writeFile("./main.go", main_go())
+	writeFile("./main_test.go", unit_test_go())
 	writeFile("./.github/workflows/build.yml", build())
 	writeFile("./.gitignore", gitignore(proj))
 	writeFile("./LICENSE", license(year))

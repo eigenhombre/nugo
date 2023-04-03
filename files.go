@@ -119,3 +119,17 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 `, year)
 }
+
+func unit_test_go() string {
+	return `package main
+
+import (
+	"testing"
+	"fmt"
+)
+
+func TestMain(t *testing.T) {
+	fmt.Println("OK")
+}
+`
+}
